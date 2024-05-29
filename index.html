@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <!-- Montserat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portofolio</title>
+    <!-- typed -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="font">
+        <a href="#">Portofolio</a>
+      </div>
+      <div class="nav">
+        <a href="#about">About</a>
+        <a href="#project">Project</a>
+        <a href="#skill">Skills</a>
+      </div>
+    </div>
+
+    <!-- Landingpage -->
+    <div id="home">
+      <div class="me">
+        <h1>
+          HI, <br />IM AHMAD AFIF <br />
+          <span id="typed"></span>
+        </h1>
+        <button class="btn">
+          <a href="#about">Selengkapnya ➡️</a>
+        </button>
+      </div>
+      <div class="image">
+        <img src="assets/foto.jpg" alt="potoapip" />
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="img">
+        <img src="assets/foto.jpg" alt="" />
+      </div>
+      <div class="text">
+        <p>
+          I am a student, studying in the Informatics Study Program with a focus on front-end web development. I have a high interest in continuing to learn and implement programming languages ​​such as HTML, CSS, JavaScript, and also
+          learning other frameworks such as React and Node.js. I have a high spirit for technology and am committed to continuing to learn and develop my skills in the world of technology.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      // Initialize Typed.js
+      var typed = new Typed("#typed", {
+        strings: ["Front - End Web Developer", "UI / UX Designer"],
+        typeSpeed: 50, // Kecepatan mengetik (ms per karakter)
+        backSpeed: 30, // Kecepatan penghapusan (ms per karakter)
+        loop: true, // Mengulangi animasi setelah selesai
+      });
+    </script>
+  </body>
+</html>
