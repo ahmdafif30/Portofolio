@@ -19,13 +19,13 @@ body {
   text-align: center;
   text-decoration: none;
   padding: 10px 20px;
+  height: 55px;
   z-index: 9999;
   background-color: #077eed;
   position: fixed;
 }
 .navbar a {
   font-family: "Poppins", sans-serif;
-
 }
 .navbar .font a {
   font-size: 35px;
@@ -61,7 +61,7 @@ body {
 #home {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 70px;
+  padding-top: 60px;
   align-items: center;
   font-family: "Montserrat", sans-serif;
   height: 100vh;
@@ -81,9 +81,8 @@ body {
   border-radius: 50%;
 }
 #home .me .btn {
-  background-color: #000;
-  color: #fff;
-  width: 300px;
+  background-color: #fff;
+  width: 200px;
   height: auto;
   font-size: 20px;
   font-weight: bold;
@@ -91,19 +90,31 @@ body {
   margin-top: 50px;
   padding: 10px;
 }
-
+#home .me .btn a {
+  color: #1991ff;
+}
 #about {
+  padding-top: 70px;
+}
+#about h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+#about .about {
   display: flex;
   justify-content: space-around;
-  padding-top: 100px;
+  align-items: center;
+  padding-top: 60px;
 }
-#about .img img {
+#about .about .img img {
   width: auto;
-  height: 550px;
+  height: 450px;
   border-radius: 2%;
 }
-#about .text {
+#about .about .text {
   font-size: 30px;
+  font-weight: 400;
   width: 500px;
   /* width: 400px; */
   font-family: "Montserrat", sans-serif;
