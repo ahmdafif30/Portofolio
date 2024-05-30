@@ -61,7 +61,6 @@ body {
 #home {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 60px;
   align-items: center;
   font-family: "Montserrat", sans-serif;
   height: 100vh;
@@ -69,6 +68,7 @@ body {
 #home .me {
   display: block;
   align-items: center;
+  padding-top: 90px;
   font-size: 25px;
   width: 750px;
   height: 700px;
@@ -94,7 +94,7 @@ body {
   color: #1991ff;
 }
 #about {
-  padding-top: 70px;
+  padding-top: 90px;
   height: 100vh;
 }
 #about h1 {
@@ -108,47 +108,56 @@ body {
   align-items: center;
   padding-top: 60px;
 }
-#about .about .img img {
+#about .about img {
   width: auto;
-  height: 550px;
+  height: 500px;
   border-radius: 2%;
 }
 #about .about .text {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
-  width: 500px;
-  /* width: 400px; */
+  width: 450px;
   font-family: "Poppins", sans-serif;
 }
-#skills {
-  margin-top: 70px;
-  padding-top: 70px;
+#skills{
+  /* margin-top: 20vh; */
+  padding-top: 90px;
   height: 100vh;
 }
+#skills .skill {
+  display: flex;
+  padding-top: 60px;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  margin-top: 5px;
+}
 #skills img {
-  width: 100px;
-  height: 100px;
+  width: auto;
+  height: 90px;
 }
 #skills h1 {
   text-align: center;
   font-size: 50px;
   font-family: 'Poppins', sans-serif;
 }
-#skills .frontend {
-  padding-top: 100px;
+#skills .skill .frontend {
+  /* padding-top: 100px; */
+  width: 600px;
   height: 50vh;
 }
-#skills .frontend .logo {
+#skills .skill .frontend .logo {
   padding-top: 50px;
   align-items: center;
   display: flex;
   justify-content: center;
   gap: 50px;
 }
-#skills .tools {
-  padding-top: 100px;
+#skills .skill .tools {
+  /* padding-top: 100px; */
+  width: 600px;
+  height: 50vh;
 }
-#skills .tools .logo {
+#skills .skill .tools .logo {
   padding-top: 50px;
   display: flex;
   justify-content: center;
