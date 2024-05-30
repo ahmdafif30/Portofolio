@@ -95,6 +95,7 @@ body {
 }
 #about {
   padding-top: 70px;
+  height: 100vh;
 }
 #about h1 {
   text-align: center;
@@ -118,4 +119,19 @@ body {
   width: 500px;
   /* width: 400px; */
   font-family: "Montserrat", sans-serif;
+}
+#skills {
+  padding-top: 70px;
+  height: 100vh;
+}
+#skills h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+#skills .frontend {
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
