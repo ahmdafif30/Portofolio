@@ -14,7 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <!-- style -->
     <link rel="stylesheet" href="style.css" />
+    <!-- Aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Portofolio</title>
     <!-- typed -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
@@ -50,12 +53,12 @@
 
     <!-- About Me -->
     <div id="about">
-      <h1>About Me</h1>
+      <h1 data-aos="zoom-in">About Me</h1>
       <div class="about">
         <div class="img">
-          <img src="assets/foto.jpg" alt="" />
+          <img data-aos="zoom-in" src="assets/foto.jpg" alt="poto" />
         </div>
-        <div class="text">
+        <div class="text" data-aos="fade-left">
           <p>
             I am a student, studying in the Informatics Study Program with a focus on front-end web development. I have a high interest in continuing to learn and implement programming languages ​​such as HTML, CSS, JavaScript, and also
             learning other frameworks such as React and Node.js. I have a high spirit for technology and am committed to continuing to learn and develop my skills in the world of technology.
@@ -66,11 +69,11 @@
 
     <!-- Skills -->
     <div id="skills">
-      <h1>Skills</h1>
+      <h1 data-aos="zoom-in">Skills</h1>
       <div class="skill">
         <div class="frontend">
-          <h1>Front - End</h1>
-          <div class="logo">
+          <h1 data-aos="fade-right">Front - End</h1>
+          <div class="logo" data-aos="fade-up">
             <img src="Logo/html.png" alt="html" />
             <img src="Logo/css.png" alt="css" />
             <img src="Logo/js.png" alt="js" />
@@ -78,8 +81,8 @@
           </div>
         </div>
         <div class="tools">
-          <h1>Tools</h1>
-          <div class="logo">
+          <h1 data-aos="fade-left">Tools</h1>
+          <div class="logo" data-aos="fade-up">
             <img src="Logo/figma.png" alt="figma" />
             <img src="Logo/canva.png" alt="canva" />
             <img src="Logo/premiere.png" alt="premiere" />
@@ -98,6 +101,10 @@
         backSpeed: 30, // Kecepatan penghapusan (ms per karakter)
         loop: true, // Mengulangi animasi setelah selesai
       });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
