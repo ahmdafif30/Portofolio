@@ -110,7 +110,7 @@ body {
 }
 #about .about .img img {
   width: auto;
-  height: 450px;
+  height: 550px;
   border-radius: 2%;
 }
 #about .about .text {
@@ -118,11 +118,16 @@ body {
   font-weight: 400;
   width: 500px;
   /* width: 400px; */
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 #skills {
+  margin-top: 70px;
   padding-top: 70px;
   height: 100vh;
+}
+#skills img {
+  width: 100px;
+  height: 100px;
 }
 #skills h1 {
   text-align: center;
@@ -130,7 +135,21 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 #skills .frontend {
-  padding-top: 70px;
+  padding-top: 100px;
+  height: 50vh;
+}
+#skills .frontend .logo {
+  padding-top: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+#skills .tools {
+  padding-top: 100px;
+}
+#skills .tools .logo {
+  padding-top: 50px;
   display: flex;
   justify-content: center;
   gap: 50px;
